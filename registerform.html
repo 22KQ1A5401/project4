@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Register form</title>
+<style>
+body{
+        background-image:url(b.jpg);
+        background-repeat:no repeat;
+        background-size:cover;
+}
+</style>
+</head>
+<body>
+<p style="background-color:rgb(234,255,0);color:black;"><h1>Welcome to Pace website</h1></p>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="registerform.html">register</a>
+        <a href="paceloginpage.html">Login</a>
+        <a href="contactus.html">contactus</a>
+    </nav>
+<form action="paceloginpage.html">
+<h3>register form:</h3>
+ studentname:<br>
+<input type="text" name="sname" placeholder="Enter Name" autofocus><br>
+ rollno:<br>
+<input type="text" rno="rnum" placeholder="Enter rollno"><br>
+ gender:<br>
+<input type="radio" name="gender" value="F">female<br>
+<input type="radio" name="gender" value="M">male<br>
+<input type="radio" name="gender" value="O">other<br>
+Date of Birth:
+<input type ="date" name="birthday"><br>
+ Age:
+<input type="number" age="anum" min="16" max="50" step="1" placeholder="age"><br>
+ phone number:<br>
+<input type="tel" phoneno="pnum" id="per1" pattern="[0-9]{10}" title="the ten digits number"><br>
+Email:
+<input type="email" name="mail" id="office"><br>
+college name:<br>
+<input type="text" clg="clgname"><br>
+branch:<br>
+<select name="branch">
+<option value="AIDS">AIDS</option>
+<option value=">AIMl">AIMl</option>
+<option value="IT">IT</option>
+<option value="IOT">IOT</option>
+<option value="CSE">CSE</option>
+<option value="CSIT">CSIT</option>
+<option value="ECE">ECE</option>
+</select><br>
+Academic year:<br>
+<input type="radio" Year="1" value="y1">1st year<br>
+<input type="radio" Year="2" value="y2">2nd year<br>
+<input type="radio" Year="3" value="y3">3rd year<br>
+<input type="radio" Year="4" value="y1">4th year<br>
+certificates done:<br>
+<input type="checkbox" certificate="spokentutorial">spokentutorial<br> 
+<input type="checkbox" certificate="codetantra">codetantra<br> 
+<input type="checkbox" certificate="infosys springboard">infosys springboard<br>
+<input type="checkbox" certificate="eduskills">edusskills<br> 
+
+        <input type="submit">
+</form>
+</body>
+</html>

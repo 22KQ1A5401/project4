@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>pace clg</title>
+        <style>
+           body{
+        background-image:url(n.jpg);
+        background-repeat:no repeat;
+        background-size:cover;
+}
+        </style>
+<body>
+    <header>
+        <h1>Welcme to pace website</h1>   
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="registerform.html">register</a>
+        <a href="paceloginpage.html">Login</a>
+        <a href="contactus.html">contactus</a>
+    </nav>
+    <center><img  src="image.png" alt="pacelogo" width="200" height="200">
+    </center></body>
+</head>
+</html>

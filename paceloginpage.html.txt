@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>pacelogin</title>
+</head>
+<style>
+body{
+        background-image:url(k.jpg);
+        background-repeat:no repeat;
+        background-size:cover;
+}
+</style>
+<body>
+<header>
+        <h1>Welcme to pace website</h1>   
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="registerform.html">register</a>
+        <a href="paceloginpage.html">Login</a>
+        <a href="contactus.html">contactus</a>
+    </nav>
+<form action="loginsuccess.html.html">
+<h3>Pace Login Page:</h3>
+User Name:<input type="text" name="uname"><br>
+password:<input type="password" name="pass"><br>
+         <input type="submit">
+</form>
+</body>
+</html>
